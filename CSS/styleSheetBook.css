@@ -1,0 +1,151 @@
+/*Fol All Element In page*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Trebuchet MS','poppins','sans-serif';
+    font-weight: bold;
+}
+/*body*/
+body{
+    background-image: url(../Photos/Cover.jpeg);
+    background-size: cover;
+    text-transform: capitalize;
+    opacity: .9;
+}
+/*Start container*/
+.container{
+    width: 800px;
+    margin: 80px auto;
+    border-radius: 4%;
+    text-shadow: 3px 3px 3px #ababab;
+}
+/*end container*/
+
+/*Start clear float*/
+.clear{
+    clear: both;
+}
+/*end clear float*/
+
+/*Start left */
+.left{
+    float: left;
+    width: 50%;
+    background-color: white;
+    opacity: .9;
+}
+/*end left*/
+
+/*Start right */
+.right{
+    float: left;
+    width: 50%;
+}
+/*end right */
+
+/*Start heading */
+h3{
+    color: #3F77D3;
+    margin: 10.5px auto;
+    text-align: center;
+    letter-spacing: 1px;
+}
+/*end heading */
+
+/*Start first char in headind */
+.FirstCHAR{
+font-size: 30px;
+color: black;
+}
+/*end first char in headind */
+
+/*Start span and label*/
+.span{
+    float: left;
+    width: 50%;
+}
+.span span{
+    display: block;
+    margin-left: 10px;
+    padding: 7px 0 ;
+    color: rgb(48, 40, 40);
+}
+.span label{
+    color: red;
+    font-size: 9px;
+}
+/*Start span and label*/
+
+/*Start input*/
+input{
+    width: 80%;
+}
+.inputs{
+    float: right;
+    width: 50%;
+}
+.inputs input{
+    border: none;
+    border-bottom: 1px solid #333;
+    margin: 5px auto;
+    padding: 10px 0 10px 0 ;
+    height: 20px ;
+    color: black;
+    font-weight: bold;
+    outline: none;    
+}
+.inputs input:hover{
+    border-bottom: 2px solid green;
+}
+.inputs input:focus{
+    border: none;
+    border-bottom: 2px solid green;
+    font-weight: bold;
+    color: rgb(20, 18, 18);
+    background-color: #ababab;
+    border-radius: 4px;
+}
+.submiting input,button{
+    border: 1px solid #333;
+    padding: 5px;
+    width: 20%;
+    background-color: #D0B48A;
+    margin :15px 0 50px 7%;
+    font-weight: bold;
+    border-radius: 12px 0px 12px 0;
+}
+button{
+    width: 100px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+.submiting input:hover,button:hover a {
+cursor: pointer;
+color: green;
+}
+select{
+    display: block;
+    margin: 15px 0 0 0;
+    font-weight: bold; 
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 80%;
+    outline: none;
+}
+select:hover{
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid green;
+}
+/*end input*/
+
+/*start img*/
+img{
+    width: 447px;
+    height: 380px;
+}
+/*end img*/

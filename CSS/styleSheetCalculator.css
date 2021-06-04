@@ -1,0 +1,77 @@
+/*All Style*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS','poppins','sans-serif';
+    font-weight: bold;
+}
+
+/*Body*/
+body{
+    background-image: url(../Photos/Calculator.png);
+    background-size: cover;
+}
+
+/*First Screen*/
+.FirstScreen input{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    width: 351px;
+    height: 40px;
+    background-color: #054141;
+    color: white;
+    padding: 0 0 0 5px;
+   
+}
+#FirstScreen{
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*Second Screen*/
+#SecondScreen{
+    border-radius: 0px 0 10px 10px;
+    font-size: 25px;
+    background-color: #054141;
+    border: none;
+    width: 351px;
+    height: 40px;
+    padding: 0 5px 0 0;
+    color: white;
+    outline: none;
+    text-align: right;
+}
+
+/*Style Calculator*/
+.calc{
+    box-shadow:  10px 10px 5px #888888;
+    margin: 50px auto;
+    margin-top: 135px;
+    background-color: #9fd5d8;
+    min-width: 353px;
+    max-width: 353px;
+    border: 1px solid #2dbcc4;
+    max-height: 380px;
+    min-height: 380px;
+    border-radius: 10px ;
+}
+button{
+    text-shadow: 3px 3px 3px #ababab;
+    border: none;
+    outline: none;
+    background-color: #9fd5d8;
+    min-width: 83px;
+    max-width: 83px;
+    min-height: 57px;
+    max-height: 57px;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #80bec2;
+}
+/*Special Button*/
+#clear,#equal{
+    min-width: 172px;
+}

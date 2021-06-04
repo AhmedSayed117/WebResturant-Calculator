@@ -1,0 +1,62 @@
+<!--
+    name: Ahmed Sayed Hassan
+    ID:   20190034
+    Group:(9)
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+        <meta charset="UTF-8">
+        <meta lang="en">
+        <link rel="stylesheet"href="CSS/styleSheetCalculator.css">
+        <link rel="icon" href="Photos/Cover.jpeg">
+    </head>
+    <body>
+
+        <!-- Start Main Div -->
+        <div class="calc">
+
+            <!--Start First Screen-->
+            <div class="FirstScreen">
+                <input type="textview"id="FirstScreen">
+            </div>
+            <!--end First Screen-->
+
+            <!--Start Second Screen-->
+            <input type="textview" id="SecondScreen">
+            <!--end Second Screen-->
+
+            <br>
+
+            <!--Start Button Of Calvulator-->
+            <button id="clear" onclick="clearNumberByNumber()">C</button>
+            <button id="delete" onclick="del()">DEL</button>
+            <button id="division" onclick="operation('/')">÷</button>
+            <br><hr>
+            <button id="one" onclick="insert(1)">1</button>
+            <button id="two" onclick="insert(2)">2</button>
+            <button id="three" onclick="insert(3)">3</button>
+            <button id="milti" onclick="operation('*')">*</button>
+            <br><hr>
+            <button id="four" onclick="insert(4)">4</button>
+            <button id="five" onclick="insert(5)">5</button>
+            <button id="six" onclick="insert(6)">6</button>
+            <button id="plus" onclick="operation('+')">+</button>
+            <br><hr>
+            <button id="Seven" onclick="insert(7)">7</button>
+            <button id="eight" onclick="insert(8)">8</button>
+            <button id="nine" onclick="insert(9)">9</button>
+            <button id="Minus" onclick="operation('-')">-</button>
+            <br><hr>
+            <button id="dot" onclick="insert('.')">.</button>
+            <button id="Zero" onclick="insert(0)">0</button>
+            <button id="equal" onclick="calculate()">=</button>
+            <br>
+            <!--Start Button Of Calvulator-->
+
+        </div>
+        <!-- end Main Div -->
+       <script src="JS/JS.js"></script>
+    </body>
+</html>

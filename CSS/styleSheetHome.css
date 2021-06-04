@@ -1,0 +1,120 @@
+/*Fol All Element In page*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS','poppins','sans-serif';
+}
+/*body*/
+body{
+    background-image: url("../Photos/Cover.jpeg");
+    background-size: cover;
+}
+/*start nav bar*/
+.NAV{
+    background-color: black;
+    height: 40px;
+    opacity: .6;
+}
+ul{
+    list-style-type: none;
+    text-align:right ;
+}
+.NAV ul li{
+    display: inline;
+}
+.NAV ul li a{
+color: white;
+text-decoration: none;
+margin: 0px 15px 0px 15px;
+font-weight: bold;
+letter-spacing: 1.5px;
+}
+.NAV ul li:hover a {
+    text-decoration: underline;
+    color: #ababab;
+}
+/*end nav bar*/
+
+/*start paragraphs*/
+.Labels{
+    text-align: center;
+    margin-top: 360px;
+    line-height: 35px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+.Labels label{
+display: block;
+color: white;
+text-transform: capitalize;
+letter-spacing: 1.5px;
+}
+.one{
+    font-weight: bold;
+    font-size: 25px;
+}
+.two{
+    font-family: "Sofia", sans-serif;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px #ababab;
+    font-weight: bold;
+}
+/*end paragraphs*/
+
+/*start buttons*/
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+.ordinary{
+    background-color: #D0B48A;
+    border-radius: 12px 0px 12px 0;
+}
+.link{
+    background-color: white;
+    border-radius: 12px 0px 12px 0;
+}
+.link2{
+    background-color: #D0B48A;
+    border-radius: 12px 0px 12px 0;
+}
+button{
+    border: none;
+    padding: 7px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+/*end buttons*/
+
+/*Start Container*/
+.container{
+    margin: 50px auto;
+    width: 725px;
+}
+/*end Container*/
+
+/*Start div Ajax*/
+#demo{
+    line-height: 25px;
+    font-size: large;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: left;
+    text-transform: capitalize;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+#demo p{
+    padding: 5px;
+}
+
+#demo span{
+    display: block;
+    text-align: center;
+}
+/*end div Ajax*/
